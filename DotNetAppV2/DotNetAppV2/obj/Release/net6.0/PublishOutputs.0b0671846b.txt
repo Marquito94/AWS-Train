@@ -1,7 +1,0 @@
-C:\Users\Marco\source\repos\DotNetAppV2\DotNetAppV2\out\DotNetAppV2.exe
-C:\Users\Marco\source\repos\DotNetAppV2\DotNetAppV2\out\appsettings.Development.json
-C:\Users\Marco\source\repos\DotNetAppV2\DotNetAppV2\out\appsettings.json
-C:\Users\Marco\source\repos\DotNetAppV2\DotNetAppV2\out\DotNetAppV2.dll
-C:\Users\Marco\source\repos\DotNetAppV2\DotNetAppV2\out\DotNetAppV2.deps.json
-C:\Users\Marco\source\repos\DotNetAppV2\DotNetAppV2\out\DotNetAppV2.runtimeconfig.json
-C:\Users\Marco\source\repos\DotNetAppV2\DotNetAppV2\out\DotNetAppV2.pdb
