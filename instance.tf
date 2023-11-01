@@ -10,12 +10,11 @@ resource "aws_instance" "ec2" {
 }
 
 resource "aws_security_group" "secgroup" {
-	name = "terraform-tcp-security-group"
-	
-	ingress {
-		from_port = 2
-		to_port = 22
-		protocol = "tcp"
-		cidr_blocks = ["0.0.0.0/0"]
+  name = "terraform-tcp-security-group"
+  ingress {
+    from_port = 2
+    to_port = 22
+    protocol = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
   }
 }
