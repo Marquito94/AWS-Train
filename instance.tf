@@ -1,17 +1,21 @@
-data "aws_ami" "ubuntu" {
-  most_recent = true
+resource "aws_instance" "ec2" {
+  ami           = ami-08cba41c585e4a2e2
+  instance_type = "t3.micro"
 
-  filter {
-    name   = "name"
-    values = ["ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-*"]
+  security_groups = [aws_security_group.secgroup.name]
+  region = var.region
+  tags = {
+    Name = "HelloWorld"
   }
 }
 
-resource "aws_instance" "ec2" {
-  ami           = data.aws_ami.ubuntu.id
-  instance_type = "t3.micro"
-
-  tags = {
-    Name = "HelloWorld"
+resource "aws_security_group" "secgroup" {
+	name = "terraform-tcp-security-group"
+	
+	ingress {
+		from_port = 2
+		to_port = 22
+		protocol = "tcp"
+		cidr_blocks = ["0.0.0.0/0"]
   }
 }
