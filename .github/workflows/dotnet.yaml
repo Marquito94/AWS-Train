@@ -4,10 +4,10 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'dotnet/*'
+      - 'WebApplicationV1/*'
   pull_request:
     paths:
-      - 'dotnet/*'
+      - 'WebApplicationV1/*'
 
 jobs:
   build:
