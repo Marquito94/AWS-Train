@@ -1,0 +1,35 @@
+name: Workflow Terraform
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  deploy_to_aws:
+    name: 'Terraform CICD'
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3 
+      
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v4
+      with:
+        aws-access-key-id: '${{ secrets.AWS_KEY }}'
+        aws-secret-access-key: '${{ secrets.AWS_KEY_SECRET }}'
+        aws-region: us-east-2
+          
+    - name: Setup Terraform
+      uses: hashicorp/setup-terraform@v1
+      
+    - name: Terraform Init
+      run: terraform init
+    
+    - name: Terraform Plan
+      run: terraform plan
+      
+    - name: Terraform Apply
+      if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+      run: terraform apply -auto-approve
