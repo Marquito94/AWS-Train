@@ -1,0 +1,14 @@
+C:\Users\Marco\GitHub\HelloWorldDOTNET\bin\Debug\net7.0\HelloWorldDOTNET.exe
+C:\Users\Marco\GitHub\HelloWorldDOTNET\bin\Debug\net7.0\HelloWorldDOTNET.deps.json
+C:\Users\Marco\GitHub\HelloWorldDOTNET\bin\Debug\net7.0\HelloWorldDOTNET.runtimeconfig.json
+C:\Users\Marco\GitHub\HelloWorldDOTNET\bin\Debug\net7.0\HelloWorldDOTNET.dll
+C:\Users\Marco\GitHub\HelloWorldDOTNET\bin\Debug\net7.0\HelloWorldDOTNET.pdb
+C:\Users\Marco\GitHub\HelloWorldDOTNET\obj\Debug\net7.0\HelloWorldDOTNET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\GitHub\HelloWorldDOTNET\obj\Debug\net7.0\HelloWorldDOTNET.AssemblyInfoInputs.cache
+C:\Users\Marco\GitHub\HelloWorldDOTNET\obj\Debug\net7.0\HelloWorldDOTNET.AssemblyInfo.cs
+C:\Users\Marco\GitHub\HelloWorldDOTNET\obj\Debug\net7.0\HelloWorldDOTNET.csproj.CoreCompileInputs.cache
+C:\Users\Marco\GitHub\HelloWorldDOTNET\obj\Debug\net7.0\HelloWorldDOTNET.dll
+C:\Users\Marco\GitHub\HelloWorldDOTNET\obj\Debug\net7.0\refint\HelloWorldDOTNET.dll
+C:\Users\Marco\GitHub\HelloWorldDOTNET\obj\Debug\net7.0\HelloWorldDOTNET.pdb
+C:\Users\Marco\GitHub\HelloWorldDOTNET\obj\Debug\net7.0\HelloWorldDOTNET.genruntimeconfig.cache
+C:\Users\Marco\GitHub\HelloWorldDOTNET\obj\Debug\net7.0\ref\HelloWorldDOTNET.dll
