@@ -9,7 +9,7 @@ resource "aws_security_group" "secgroup" {
   }
 }
 
-resource "aws_instance" "ec2" {
+resource "aws_instance" "ec2-instance" {
   ami           = "ami-08cba41c585e4a2e2"
   instance_type = "t3.micro"
 
