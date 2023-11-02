@@ -1,4 +1,4 @@
-resource "aws_ecr_repository" "ecr_repository" {
+resource "aws_ecr_repository" "ecr_repo" {
   name                 = "dotnet-repo-test123"
   image_tag_mutability = "MUTABLE"
 
